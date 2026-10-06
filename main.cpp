@@ -242,7 +242,8 @@ void render()
 
 void shutdown()
 {
-    
+
+    CloseWindow();
 
     UnloadTexture(gGojo_white);
     UnloadTexture(gGojo_black); 
@@ -250,8 +251,6 @@ void shutdown()
     UnloadTexture(gSwirl);
     UnloadTexture(gRed);
     UnloadTexture(gPurple);     
-    CloseWindow();
-
 }
 
 int main(void)
